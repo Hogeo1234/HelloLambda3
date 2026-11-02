@@ -1,0 +1,22 @@
+{
+ "$schema": "https://opencode.ai/config.json",
+ "provider": {
+   "lmstudio": {
+     "npm": "@ai-sdk/openai-compatible",
+     "name": "LM Studio",
+     "options": {
+       "baseURL": "http://192.168.11.100:1234/v1"
+     },
+     "models": {
+       "qwen3.8-27b-turbo-fable-cold-fusion-735-882-heretic-uncensored-neo-coder-max-mtp": {
+         "name": "Qwen3.8 Turbo",
+          "limit": {
+            "context": 81920,
+            "output": 20480
+          }
+       }
+     }
+    }
+ },
+ "model": "lmstudio/qwen3.8-27b-turbo-fable-cold-fusion-735-882-heretic-uncensored-neo-coder-max-mtp"
+}

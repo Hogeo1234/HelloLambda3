@@ -2,7 +2,7 @@ name: Deploy HelloLambda
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   test-and-deploy:
